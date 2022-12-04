@@ -416,6 +416,9 @@ namespace ConsoleApp1
             //Console.WriteLine("Ваш возраст: {0}", anketa.age);
             //Console.WriteLine("Ваше имя: {0}", anketa.Item1);
             //Console.WriteLine("Ваш возраст: {0}", anketa.Item2);
+            var (name, age) = ("Евгения", 27);
+            Console.WriteLine("Ваше имя: {0}", name);
+            Console.WriteLine("Ваш возраст: {0}", age);
 
             (string name, int age) anketa;
 

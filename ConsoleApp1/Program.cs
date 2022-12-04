@@ -397,14 +397,37 @@ namespace ConsoleApp1
 
             //Console.WriteLine(sum);
             //----------------------------------------------------------
-            int[,] arr = { { -5, 6, 9, 1, 2, -3 }, { -8, -8, -1, 1, 2, -3 } };
-            int sum = 0;
+            //int[,] arr = { { -5, 6, 9, 1, 2, -3 }, { -8, -8, -1, 1, 2, -3 } };
+            //int sum = 0;
 
-            foreach( var item in  arr)
-            {
-                if (item > 0) sum += 1;
-            }
-            Console.WriteLine(sum);
+            //foreach( var item in  arr)
+            //{
+            //    if (item > 0) sum += 1;
+            //}
+            //Console.WriteLine(sum);
+            //Console.ReadKey();
+            //-------------------------------------------------------------------
+
+            //-- Кортежи
+            //(string name, int age) anketa;
+            //var anketa = (name: "Jane", age: 27);
+
+            //Console.WriteLine("Ваше имя: {0}", anketa.name);
+            //Console.WriteLine("Ваш возраст: {0}", anketa.age);
+            //Console.WriteLine("Ваше имя: {0}", anketa.Item1);
+            //Console.WriteLine("Ваш возраст: {0}", anketa.Item2);
+
+            (string name, int age) anketa;
+
+            Console.Write("Введите имя: ");
+            anketa.name = Console.ReadLine();
+            Console.Write("Введите возраст с цифрами: ");
+            anketa.age = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Ваше имя: {0}", anketa.name);
+            Console.WriteLine("Ваш возраст: {0}", anketa.age);
+
+            Console.ReadKey();
             Console.ReadKey();
         }
     

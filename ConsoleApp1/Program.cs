@@ -127,42 +127,138 @@ namespace ConsoleApp1
 
             //    Console.WriteLine("Your color is cyan!");
             //}
+            //------------------------------------------------------------------------------------
+            //Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы");
 
-            Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы");
+            //var color = Console.ReadLine();
 
-            var color = Console.ReadLine();
+            //switch (color)
+            //{
+            //    case "red":
+            //        Console.BackgroundColor = ConsoleColor.Red;
+            //        Console.ForegroundColor = ConsoleColor.Black;
 
-            switch (color)
-            {
-                case "red":
-                    Console.BackgroundColor = ConsoleColor.Red;
-                    Console.ForegroundColor = ConsoleColor.Black;
+            //        Console.WriteLine("Your color is red!");
+            //        break;
 
-                    Console.WriteLine("Your color is red!");
-                    break;
+            //    case "green":
+            //        Console.BackgroundColor = ConsoleColor.Green;
+            //        Console.ForegroundColor = ConsoleColor.Black;
 
-                case "green":
-                    Console.BackgroundColor = ConsoleColor.Green;
-                    Console.ForegroundColor = ConsoleColor.Black;
+            //        Console.WriteLine("Your color is green!");
+            //        break;
 
-                    Console.WriteLine("Your color is green!");
-                    break;
+            //    case "cyan":
+            //        Console.BackgroundColor = ConsoleColor.Cyan;
+            //        Console.ForegroundColor = ConsoleColor.Black;
 
-                case "cyan":
-                    Console.BackgroundColor = ConsoleColor.Cyan;
-                    Console.ForegroundColor = ConsoleColor.Black;
+            //        Console.WriteLine("Your color is cyan!");
+            //        break;
 
-                    Console.WriteLine("Your color is cyan!");
-                    break;
+            //    default:
+            //        Console.BackgroundColor = ConsoleColor.Yellow;
+            //        Console.ForegroundColor = ConsoleColor.Red;
 
-                default:
-                    Console.BackgroundColor = ConsoleColor.Yellow;
-                    Console.ForegroundColor = ConsoleColor.Red;
+            //        Console.WriteLine("Your color is {0}!", color);
+            //        break;
+            //}
+            //---------------------------------------------------------------------------------------
+            //Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы");
 
-                    Console.WriteLine("Your color is {0}!", color);
-                    break;
-            }
-            Console.ReadKey();
+            ////var color = Console.ReadLine();
+
+            //for (int i = 1; i < 5; i++)
+            //{
+            //    Console.WriteLine("Iteration {0}", i);
+            //    switch (Console.ReadLine())
+            //    {
+            //        case "red":
+            //            Console.BackgroundColor = ConsoleColor.Red;
+            //            Console.ForegroundColor = ConsoleColor.Black;
+
+            //            Console.WriteLine("Your color is red!");
+            //            break;
+
+            //        case "green":
+            //            Console.BackgroundColor = ConsoleColor.Green;
+            //            Console.ForegroundColor = ConsoleColor.Black;
+
+            //            Console.WriteLine("Your color is green!");
+            //            break;
+
+            //        case "cyan":
+            //            Console.BackgroundColor = ConsoleColor.Cyan;
+            //            Console.ForegroundColor = ConsoleColor.Black;
+
+            //            Console.WriteLine("Your color is cyan!");
+            //            break;
+            //        default:
+            //            Console.BackgroundColor = ConsoleColor.Yellow;
+            //            Console.ForegroundColor = ConsoleColor.Black;
+
+            //            Console.WriteLine("Your color is yellow!");
+            //            break;
+            //    }
+            //}
+
+            //int i = 1;
+            //for (i = 5; i > 0; i--)
+            //{
+            //    Console.WriteLine("Iteration {0}", i);
+            //    switch (Console.ReadLine())
+            //    {
+            //        case "red":
+            //            Console.BackgroundColor = ConsoleColor.Red;
+            //            Console.ForegroundColor = ConsoleColor.Black;
+
+            //            Console.WriteLine("Your color is red!");
+            //            break;
+            //        case "yellow":
+            //            Console.BackgroundColor = ConsoleColor.Yellow;
+            //            Console.ForegroundColor = ConsoleColor.Black;
+
+            //            Console.WriteLine("Your color is Yellow!");
+            //            break;
+            //    }
+            //
+            //}
+            //Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы");
+
+            //var color = Console.ReadLine();
+
+            //switch (color)
+            //{
+            //    case "red":
+            //        Console.BackgroundColor = ConsoleColor.Red;
+            //        Console.ForegroundColor = ConsoleColor.Black;
+
+            //        Console.WriteLine("Your color is red!");
+            //        break;
+
+            //    case "green":
+            //        Console.BackgroundColor = ConsoleColor.Green;
+            //        Console.ForegroundColor = ConsoleColor.Black;
+
+            //        Console.WriteLine("Your color is green!");
+            //        break;
+
+            //    case "cyan":
+            //        Console.BackgroundColor = ConsoleColor.Cyan;
+            //        Console.ForegroundColor = ConsoleColor.Black;
+
+            //        Console.WriteLine("Your color is cyan!");
+            //        break;
+
+            //    default:
+            //        //continue;
+            //        Console.BackgroundColor = ConsoleColor.Yellow;
+            //        Console.ForegroundColor = ConsoleColor.Black;
+
+            //        Console.WriteLine("Your color is yellow!");
+            //        //continue;
+            //        break;
+            //}
+            //Console.ReadKey();
             
         }
     }

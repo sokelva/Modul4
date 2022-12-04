@@ -387,16 +387,24 @@ namespace ConsoleApp1
             //}
 
             //-----------------------------------------------------
-            var arr = new int[] { 5, 6, -9, 1, -2, -3, 4 };
+            //var arr = new int[] { 5, 6, -9, 1, -2, -3, 4 };
+            //int sum = 0;
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (arr[i]>0) sum += 1;
+            //}
+
+            //Console.WriteLine(sum);
+            //----------------------------------------------------------
+            int[,] arr = { { -5, 6, 9, 1, 2, -3 }, { -8, -8, -1, 1, 2, -3 } };
             int sum = 0;
 
-            for (int i = 0; i < arr.Length; i++)
+            foreach( var item in  arr)
             {
-                if (arr[i]>0) sum += 1;
+                if (item > 0) sum += 1;
             }
-
             Console.WriteLine(sum);
-
             Console.ReadKey();
         }
     

@@ -416,21 +416,22 @@ namespace ConsoleApp1
             //Console.WriteLine("Ваш возраст: {0}", anketa.age);
             //Console.WriteLine("Ваше имя: {0}", anketa.Item1);
             //Console.WriteLine("Ваш возраст: {0}", anketa.Item2);
-            var (name, age) = ("Евгения", 27);
-            Console.WriteLine("Ваше имя: {0}", name);
-            Console.WriteLine("Ваш возраст: {0}", age);
+            //var (name, age) = ("Евгения", 27);
+            //Console.WriteLine("Ваше имя: {0}", name);
+            //Console.WriteLine("Ваш возраст: {0}", age);
 
-            (string name, int age) anketa;
+            //(string name, int age) anketa;
 
-            Console.Write("Введите имя: ");
-            anketa.name = Console.ReadLine();
-            Console.Write("Введите возраст с цифрами: ");
-            anketa.age = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Введите имя: ");
+            //anketa.name = Console.ReadLine();
+            //Console.Write("Введите возраст с цифрами: ");
+            //anketa.age = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Ваше имя: {0}", anketa.name);
-            Console.WriteLine("Ваш возраст: {0}", anketa.age);
+            //Console.WriteLine("Ваше имя: {0}", anketa.name);
+            //Console.WriteLine("Ваш возраст: {0}", anketa.age);
 
-            Console.ReadKey();
+            //----------------------------------------------------------------
+            (string Name, string Type, double Age) Pet;
             Console.ReadKey();
         }
     

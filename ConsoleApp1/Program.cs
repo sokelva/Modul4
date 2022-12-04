@@ -372,19 +372,31 @@ namespace ConsoleApp1
             //Console.WriteLine(sum);
 
             //---------Зубчатый массив
-            int[][] array = new int[3][];
+            //int[][] array = new int[3][];
 
-            array[0] = new int[2] { 1, 2 };
-            array[1] = new int[3] { 1, 2, 3 };
-            array[2] = new int[5] { 1, 2, 3, 4, 5 };
+            //array[0] = new int[2] { 1, 2 };
+            //array[1] = new int[3] { 1, 2, 3 };
+            //array[2] = new int[5] { 1, 2, 3, 4, 5 };
 
-            foreach (var num in array)
+            //foreach (var num in array)
+            //{
+            //    foreach (var item in num)
+            //    {
+            //        Console.Write(item + " ");
+            //    }
+            //}
+
+            //-----------------------------------------------------
+            var arr = new int[] { 5, 6, -9, 1, -2, -3, 4 };
+            int sum = 0;
+
+            for (int i = 0; i < arr.Length; i++)
             {
-                foreach (var item in num)
-                {
-                    Console.Write(item + " ");
-                }
+                if (arr[i]>0) sum += 1;
             }
+
+            Console.WriteLine(sum);
+
             Console.ReadKey();
         }
     

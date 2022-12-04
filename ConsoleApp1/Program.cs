@@ -430,8 +430,20 @@ namespace ConsoleApp1
             //Console.WriteLine("Ваше имя: {0}", anketa.name);
             //Console.WriteLine("Ваш возраст: {0}", anketa.age);
 
-            //----------------------------------------------------------------
-            (string Name, string Type, double Age) Pet;
+            //Задание 4.4.4----------------------------------------------------------------
+            //(string Name, string Type, double Age) Pet;
+            (string Name, string Type, double Age, int NameCount) Pet;
+
+            Console.Write("Введите имя питомца:");
+            Pet.Name = Console.ReadLine();
+            Console.Write("Введите тип питомца:");
+            Pet.Type = Console.ReadLine();
+            Console.Write("Введите возраст с цифрами:");
+            Pet.Age = Convert.ToInt32(Console.ReadLine());
+            Pet.NameCount = Pet.Name.Length;
+
+            Console.WriteLine("Имя вашего питомца: {0}, тип: {1}, возраст питомца: {2}, длинна имени питомца: {3} ", Pet.Name, Pet.Type, Pet.Age, Pet.NameCount);
+            
             Console.ReadKey();
         }
     

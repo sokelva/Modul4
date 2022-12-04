@@ -439,7 +439,7 @@ namespace ConsoleApp1
             Console.Write("Введите тип питомца:");
             Pet.Type = Console.ReadLine();
             Console.Write("Введите возраст с цифрами:");
-            Pet.Age = Convert.ToInt32(Console.ReadLine());
+            Pet.Age = double.Parse(Console.ReadLine());
             Pet.NameCount = Pet.Name.Length;
 
             Console.WriteLine("Имя вашего питомца: {0}, тип: {1}, возраст питомца: {2}, длинна имени питомца: {3} ", Pet.Name, Pet.Type, Pet.Age, Pet.NameCount);
